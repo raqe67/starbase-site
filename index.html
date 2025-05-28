@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>$Starbase Token</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      background: linear-gradient(to bottom right, #000010, #050530);
+    }
+    header {
+      background: url('banner.png') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+    }
+    .logo {
+      max-width: 150px;
+      margin: 2rem auto;
+      display: block;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+    }
+    .description {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+      padding-bottom: 1rem;
+    }
+    .contract {
+      background: #111122;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      word-break: break-all;
+      margin: 1rem auto;
+      max-width: 90%;
+    }
+    .socials a {
+      margin: 0 1rem;
+      color: #00ffcc;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+    .button {
+      margin-top: 1.5rem;
+      background: #00ffcc;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #00ccaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to $Starbase Token</h1>
+  </header>
+
+  <img src="logo.png" alt="$Starbase Logo" class="logo" />
+
+  <div class="container">
+    <p class="description">
+      $Starbase is a next-generation crypto token inspired by interstellar exploration. Fueled by community and innovation, it's your ticket to the stars.
+    </p>
+
+    <div class="contract">
+      <strong>Contract Address:</strong><br>
+      2MVy9drHqSBinPoSyUrUVS19m5u8Cjj3mZcnpYshpump
+    </div>
+
+    <div class="socials">
+      <a href="https://x.com/i/communities/1918730003631480916" target="_blank">X Community</a>
+      <a href="#" target="_blank">Telegram</a>
+      <a href="#" target="_blank">Discord</a>
+    </div>
+
+    <button class="button" onclick="window.open('https://explorer.example.com/address/2MVy9drHqSBinPoSyUrUVS19m5u8Cjj3mZcnpYshpump','_blank')">
+      View on Explorer
+    </button>
+  </div>
+</body>
+</html>
